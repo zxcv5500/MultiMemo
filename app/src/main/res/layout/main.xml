@@ -49,26 +49,36 @@
 		android:layout_alignParentBottom="true"
 		>
 
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			>
 
-		<com.tistory.zxcv5500.multimemo.common.TitleBitmapButton
-			android:id="@+id/newMemoBtn"
-			android:layout_width="100dp"
-			android:layout_height="48dp"
-			android:text="새 메모"
-			android:textSize="18dp"
-			android:textStyle="bold"
-			android:textColor="#ff420000"
-			/>
-		<com.tistory.zxcv5500.multimemo.common.TitleBitmapButton
-			android:id="@+id/closeBtn"
-			android:layout_width="100dp"
-			android:layout_height="48dp"
-			android:layout_marginLeft="20dp"
-			android:text="닫기"
-			android:textSize="18dp"
-			android:textStyle="bold"
-			android:textColor="#ff420000"
-			/>
+			<com.tistory.zxcv5500.multimemo.common.TitleBitmapButton
+				android:id="@+id/newMemoBtn"
+				android:layout_width="100dp"
+				android:layout_height="48dp"
+				android:text="새 메모"
+				android:textSize="18dp"
+				android:textStyle="bold"
+				android:textColor="#ff420000"
+				/>
+			<com.tistory.zxcv5500.multimemo.common.TitleBitmapButton
+				android:id="@+id/closeBtn"
+				android:layout_width="100dp"
+				android:layout_height="48dp"
+				android:layout_marginLeft="20dp"
+				android:text="닫기"
+				android:textSize="18dp"
+				android:textStyle="bold"
+				android:textColor="#ff420000"
+				/>
+
+		</LinearLayout>
+
+
 
 
 	</LinearLayout>
