@@ -8,6 +8,6 @@ public class MultiMemoActivity extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_multi_memo);
+		setContentView(R.layout.main);
 	}
 }
